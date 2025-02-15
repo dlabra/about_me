@@ -2,7 +2,7 @@
 
 📞 +1 438 939 3819  
 📧 d.labrasilva@gmail.com  
-🏠 2533 Beauclerk, Montreal, Quebec
+🏠 Montreal, Quebec
 
 ---
 
