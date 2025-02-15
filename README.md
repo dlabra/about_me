@@ -1,6 +1,5 @@
 # Daniel Andres Labra Silva
 
-📞 +1 438 939 3819  
 📧 d.labrasilva@gmail.com  
 🏠 Montreal, Quebec
 
