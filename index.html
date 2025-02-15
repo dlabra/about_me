@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Andres Labra Silva - Full-Stack Software Engineer (C# / .NET)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0077b5;
+            --text-color: #333333;
+            --bg-color: #ffffff;
+            --card-bg: #f8fafc;
+            --border-color: #e2e8f0;
+            --hover-color: #005582;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #f8fafc, #ffffff);
+        }
+
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--hover-color);
+            border-color: var(--hover-color);
+        }
+
+        .skill-category {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .contact-item {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-item i {
+            color: var(--primary-color);
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1 class="h4 mb-0">Daniel Andres Labra Silva</h1>
+                <p class="small text-muted mb-0">Full-Stack Software Engineer (C# / .NET) | Montreal, QC, Canada</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="summary" class="mb-5">
+            <h2 class="section-title"><i class="fas fa-user-circle"></i> Summary</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p>Experienced in both agile and traditional methodologies, with a background in developing applications using .NET Core, ASP.NET with C#. Proficient in working with Oracle and SQL Server databases. Skilled in performing analysis and development tasks across various projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-5">
+            <h2 class="section-title"><i class="fas fa-cogs"></i> Professional Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="skill-category"><i class="fas fa-server"></i> Backend Development</h3>
+                            <ul class="list-unstyled">
+                                <li>C#, VB.NET, ASP.NET, VBScript</li>
+                                <li>Microservices, BFF, MVC, N-Tier</li>
+                                <li>RESTful APIs, Web APIs, JSON, XML, XSL, XSLT</li>
+                                <li>Entity Framework, Test-Driven Development (TDD)</li>
+                                <li>.NET Framework, Core.NET</li>
+                                <li>ASP.NET Core, ASP.NET MVC</li>
+                                <li>Dependency Injection, SOLID Principles</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="skill-category"><i class="fas fa-desktop"></i> Frontend Development</h3>
+                            <ul class="list-unstyled">
+                                <li>Angular</li>
+                                <li>HTML5, CSS3, SASS, Bootstrap</li>
+                                <li>JavaScript, TypeScript</li>
+                                <li>Responsive Web Design</li>
+                                <li>User Experience (UX) & User-Friendly Interfaces</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="skill-category"><i class="fas fa-database"></i> Databases</h3>
+                            <ul class="list-unstyled">
+                                <li>SQL Server, Oracle</li>
+                                <li>SQL Queries, Data Modeling</li>
+                                <li>Relational Databases</li>
+                                <li>ORM (Object-Relational Mapping)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="skill-category"><i class="fas fa-cloud"></i> Cloud Computing & DevOps</h3>
+                            <ul class="list-unstyled">
+                                <li>Microsoft Azure (App Services, Storage), AWS</li>
+                                <li>Azure DevOps, Git Actions, Jenkins</li>
+                                <li>Powershell</li>
+                                <li>Git, TFS, Version Control</li>
+                                <li>CI/CD Pipelines</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="skill-category"><i class="fas fa-tasks"></i> Project Management & Methodologies</h3>
+                            <ul class="list-unstyled">
+                                <li>Agile Methodologies (Scrum, Kanban)</li>
+                                <li>Software Development Life Cycle (SDLC)</li>
+                                <li>Team Leadership</li>
+                                <li>Estimation and Planning</li>
+                                <li>Code Reviews and Best Practices</li>
+                                <li>Continuous Integration/Continuous Deployment (CI/CD)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="skill-category"><i class="fas fa-tools"></i> Tools & Additional Skills</h3>
+                            <ul class="list-unstyled">
+                                <li>Visual Studio, VS Code, IIS Express</li>
+                                <li>Swagger, SonarQube</li>
+                                <li>Document Management Systems</li>
+                                <li>Migration Projects & Startup Solutions</li>
+                                <li>RESTful API Design</li>
+                                <li>Performance Optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="mb-5">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Software Developer</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Globant - Chile (Remote)</h4>
+                    <p class="card-text"><small class="text-muted">May 2021 – Dec 2024</small></p>
+                    <ul>
+                        <li>Designed and implemented RESTful APIs and microservices, ensuring seamless system integration.</li>
+                        <li>Migrated applications and APIs to newer .NET versions and other environments, optimizing performance and compatibility.</li>
+                        <li>Developed and enhanced system functionalities to align with client requirements and improve efficiency.</li>
+                        <li>Created and executed unit tests to ensure code quality and increase test coverage.</li>
+                        <li>Conducted code reviews and provided technical support to maintain best practices and coding standards.</li>
+                        <li>Participated in Agile ceremonies and technical meetings, contributing to planning and development strategies.</li>
+                        <li>Deployed applications in cloud environments, including Azure, leveraging Azure Functions and Azure Queue Storage.</li>
+                        <li>Managed caching solutions using Redis to enhance application performance.</li>
+                        <li><strong>Clients:</strong> United Airlines, Rockwell Automation, Disney Media.</li>
+                    </ul>
+                    <div class="collapse" id="experience-1-more">
+                        <p class="card-title"><strong>Project: Electronic Arts</strong></p>
+                        <p class="card-text"><small class="text-muted">Jun. 2024 – Dec. 2024</small></p>
+                        <ul>
+                            <li>Analyzed client requirements for implementation to ensure they met project goals.</li>
+                            <li>Designed and implemented RESTful APIs and microservices.</li>
+                            <li>Implemented new features into the client's system to enhance functionality.</li>
+                            <li>Participated in all Agile ceremonies to promote team collaboration and progress tracking.</li>
+                            <li>Performed code reviews to ensure code quality and adherence to best practices.</li>
+                            <li>Tested and validated team members' implementations to ensure functionality and compliance with requirements.</li>
+                            <li><strong>Stack:</strong> .NET Core, RESTful APIs, JSON, Entity Framework, TDD, Dependency Injection, Angular, Bootstrap, TypeScript, SQL Server, Azure, Git, Service Fabric, Elastic Search.</li>
+                        </ul>
+
+                        <p class="card-title"><strong>Project: United Airlines</strong></p>
+                        <p class="card-text"><small class="text-muted">Dec. 2023 – May 2024</small></p>
+                        <ul>
+                            <li>Analyzed client requirements to ensure alignment with business objectives.</li>
+                            <li>Migrated APIs across various services to enhance system integration.</li>
+                            <li>Developed and executed unit tests to ensure code quality, functionality, and increase coverage.</li>
+                            <li>Created detailed user stories for various tasks to guide development.</li>
+                            <li>Performed code reviews and provided technical support and guidance to the development team.</li>
+                            <li><strong>Stack:</strong> .NET Core, Azure, AWS, Git, BFF, DynamoDB, RESTful APIs.</li>
+                        </ul>
+
+                        <p class="card-title"><strong>Project: Rockwell Automation</strong></p>
+                        <p class="card-text"><small class="text-muted">Mar. 2023 – Nov. 2023</small></p>
+                        <ul>
+                            <li>Developed APIs using Node.js to support various application functionalities.</li>
+                            <li>Deployed applications in the Azure environment, utilizing Azure Functions and Azure Queue Storage.</li>
+                            <li>Integrated with external APIs to enhance application capabilities.</li>
+                            <li>Managed caching solutions using Redis to optimize performance.</li>
+                            <li>Participated in technical meetings to discuss development strategies and solutions.</li>
+                            <li><strong>Stack:</strong> Node.js, BFF, Cognite, TypeScript, Azure Functions, Azure Queues, Event-Driven Architecture, Angular.</li>
+                        </ul>
+
+                        <p class="card-title"><strong>Project: Disney</strong></p>
+                        <p class="card-text"><small class="text-muted">May 2021 – Aug. 2022</small></p>
+                        <ul>
+                            <li>Led the migration of various applications from .NET Framework to .NET Core 3.1.</li>
+                            <li>Executed tasks to increase unit test coverage in the applications.</li>
+                            <li>Conducted peer reviews on pull requests submitted by colleagues.</li>
+                            <li>Enhanced application performance to meet client requirements.</li>
+                            <li>Proposed solutions for various reported bugs.</li>
+                            <li>Monitored and addressed application performance issues.</li>
+                            <li>Created user stories for task assignments.</li>
+                            <li>Provided support and guidance to co-workers as needed.</li>
+                            <li><strong>Stack:</strong> .NET Core, .NET Framework, Blazor, RESTful APIs, Oracle, Layered Architecture.</li>
+                        </ul>
+
+                    </div>
+                    <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#experience-1-more" aria-expanded="false" aria-controls="experience-1-more">
+                        Show More
+                    </button>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Video Game Tester</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Keywords Studios - Montreal</h4>
+                    <p class="card-text"><small class="text-muted">Nov. 2022 – Feb. 2023</small></p>
+                    <ul>
+                        <li>Discovered bugs, found clear reproduction steps, and entered the information concisely into the database.</li>
+                        <li>Regressed old bugs in the project database to ensure they no longer occurred.</li>
+                        <li>Collaborated with team members.</li>
+                        <li>Provided feedback from a user experience perspective.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Software Developer</h3>
+                    <p class="card-title">Indra - Chile</p>
+                    <p class="card-text"><small class="text-muted">Aug. 2016 – Apr. 2021</small></p>
+                    <ul>
+                        <li>Led a team of 3 developers, performing code reviews and providing support as needed.</li>
+                        <li>Migrated an old platform to a new application using modern technologies such as .NET Core 2.0, Razor, and microservices.</li>
+                        <li>Built a desktop application using Windows Forms with C# to manage loads handled by a Windows service, including associated clients, transactions, and service configuration.</li>
+                        <li>Ensured project deadlines were met, delivering all components on schedule.</li>
+                        <li><strong>Stack:</strong> .NET Framework, Entity Framework, C#, WinForms, Blazor, Bootstrap, PHP, SQL Server, Oracle, Microservices, N-Tier Architecture, RESTful APIs.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="mb-5">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education & Certifications</h2>
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-university me-2"></i> Bachelor's Degree in Software Engineering, Andres Bello University</li>
+                        <li><i class="fas fa-certificate me-2"></i> Scrum Foundation Professional Certification – SFPC</li>
+                        <li><i class="fas fa-certificate me-2"></i> Scrum Master Professional – SMPC</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title"><i class="fas fa-envelope"></i> Contact</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-item">
+                                <i class="fas fa-phone me-2"></i>
+                                <span>+1 438-939-3819</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope me-2"></i>
+                                <a href="mailto:d.labrasilva@gmail.com">d.labrasilva@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin me-2"></i>
+                                <a href="https://www.linkedin.com/in/daniellabrasilva" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github me-2"></i>
+                                <a href="https://github.com/dlabra" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.collapse').on('show.bs.collapse', function () {
+                $(this).siblings('.btn').text('Show Less');
+            });
+            $('.collapse').on('hide.bs.collapse', function () {
+                $(this).siblings('.btn').text('Show More');
+            });
+        });
+    </script>
+</body>
+</html>
